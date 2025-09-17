@@ -1,0 +1,48 @@
+# -------------------------------
+# Entorno virtual
+# -------------------------------
+venv/
+ENV/
+env/
+*.egg-info/
+
+# -------------------------------
+# Archivos compilados de Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------
+# Archivos de configuración local / secretos
+# -------------------------------
+.env
+*.env
+
+# -------------------------------
+# Archivos de logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# Archivos de IDEs y editores
+# -------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# Archivos de sistema
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Archivos generados por Django
+# -------------------------------
+*.pot
+*.mo
+staticfiles/
+media/
